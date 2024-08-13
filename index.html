@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Desarrollo de Portafolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Anaís Molina Antinao</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#educación">Educación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="content">
+
+        <section id="sobre-mi">
+            <div class="text-content">
+                <h2>¡YEIH!</h2>
+                <p>
+                    Soy Anaís, actualmente estoy realizando un bootcamp para reforzar mis conocimientos y desempeñarme como desarrolladora 
+                    front-end. Te invito a seguir husmeando y descubrir más sobre mí.
+                </p>
+            </div>
+            <img src="/assets/img/logo.png" alt="Sobre mi" class="img-circulo">
+        </section>
+
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <p>
+                He realizado varios proyectos utilizando HTML5, CSS y Bootstrap para resolver una variedad de desafíos en el desarrollo web.
+                En estos proyectos, he aplicado mis conocimientos en la creación de interfaces de usuario responsivas y atractivas.
+            </p>
+
+            <div class="container">
+                <div class="container">
+                    <div>
+                        <img src="/assets/img/df1.png" class="image-circle" alt="Desafío Iguana" />
+                        <div class="caption">Desafío Iguana</div>
+                    </div>
+                    <div>
+                        <img src="/assets/img/df2.png" class="image-circle" alt="Desafío Cuppon" />
+                        <div class="caption">Desafío Cuppon</div>
+                    </div>
+                    <div>
+                        <img src="/assets/img/df3.png" class="image-circle" alt="Desafío IceCreamIce" />
+                        <div class="caption">Desafío IceCreamIce</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="educación">
+            <h2>Educación y conocimientos</h2>
+            <ul>
+                <li> HTML
+                    <P> 
+                        Manejo avanzado de HTML5 para estructurar contenido de manera semántica y accesible, garantizando sitios web organizados y optimizados para SEO.
+                    </P>
+                </li>
+
+                <li> CSS
+                    <p>
+                        Experto en estilizar sitios web usando CSS, incluyendo layouts flexibles, animaciones y diseño responsivo para diferentes dispositivos.
+                    </p>
+                </li>
+
+                <li> Bootstrap 
+                    <p>
+                        Uso de Bootstrap para crear interfaces modernas y responsivas, aprovechando componentes preconstruidos para desarrollar rápidamente sitios web atractivos y funcionales.
+                    </p>
+                </li>
+            </ul>
+            <div class="knows">
+                <img src="/assets/img/bos.png" alt="Descripción de la imagen" class="img-float-left">
+                <img src="/assets/img/css.png" alt="Descripción de la imagen" class="img-float-left">
+                <img src="/assets/img/htlm.png" alt="Descripción de la imagen" class="img-float-left">
+            </div>
+            
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o deseas ponerte en contacto conmigo, por favor, completa el siguiente formulario o utiliza la información de contacto proporcionada.</p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    
+                    <p><strong>Teléfono:</strong> +123 456 7890</p>
+                    <p><strong>Email:</strong> example@example.com</p>
+                    <p><strong>Dirección:</strong> 123 Calle Ejemplo, Ciudad, País</p>
+                    <img src="/assets/img/logo.png" alt="Contacto" class="imagen-contacto" >
+                </div>
+        
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer id="main-footer">
+        <div class="footer-container">
+            <div class="footer-section social">
+                <h3>Sígueme</h3>
+                <a href="https://github.com/ilavidad" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/img/github.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/ana%C3%ADs-molina-antinao-b33b18210/" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+            
+        </div>
+    
+        <div class="footer-bottom">
+            <br>
+            <p>&copy; 2024 Anaís Molina Antinao. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+
+
+    
+</body>
+</html>
